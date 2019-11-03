@@ -11,10 +11,11 @@
   "web3Wallet": {
     "bundle": {
       "local": "dist/bundle.js",
-      "url": "http://localhost:8081/dist/bundle.js"
+      "url": "http://localhost:8090/dist/bundle.js"
     },
     "initialPermissions": {
-      "confirm": {}
+      "confirm": {},
+      "wallet_manageAssets": {}
     }
   },
   "dependencies": {
